@@ -27,5 +27,3 @@ class Solution:
             opt += "".join(val)
 
         return opt
-            
-
