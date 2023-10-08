@@ -6,5 +6,4 @@ class Solution:
             if haystack[i:len(needle) + i] == needle:
                 occurrence = i
                 return occurrence
-            
         return occurrence
