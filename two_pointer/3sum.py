@@ -6,7 +6,7 @@ class Solution:
 
         for i in range(n - 2):
             if i > 0 and nums[i] == nums[i - 1]:
-                continue  # Skip duplicate values to avoid duplicates in the result
+                continue
 
             left, right = i + 1, n - 1
 
